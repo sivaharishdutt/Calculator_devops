@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="8" failures="0" name="CalculatorTest" time="1.775" errors="0" skipped="0">
+<testsuite tests="8" failures="0" name="CalculatorTest" time="1.24" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\N SIVAHARISHDUTT\Downloads\testcases-main"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\N SIVAHARISHDUTT\Desktop\Calculator_devops"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\N SIVAHARISHDUTT\Downloads\testcases-main"/>
+    <property name="user.dir" value="C:\Users\N SIVAHARISHDUTT\Desktop\Calculator_devops"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -45,7 +45,7 @@
     <property name="java.class.path" value="C:\Program Files\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,12 +65,12 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="CalculatorTest" name="factorialFalsePositive" time="1.732"/>
-  <testcase classname="CalculatorTest" name="sqrootFalsePositive" time="0.035"/>
-  <testcase classname="CalculatorTest" name="logTruePositive" time="0.008"/>
+  <testcase classname="CalculatorTest" name="factorialFalsePositive" time="1.144"/>
+  <testcase classname="CalculatorTest" name="sqrootFalsePositive" time="0.048"/>
+  <testcase classname="CalculatorTest" name="logTruePositive" time="0"/>
   <testcase classname="CalculatorTest" name="factorialTruePositive" time="0"/>
-  <testcase classname="CalculatorTest" name="powerFalsePositive" time="0"/>
-  <testcase classname="CalculatorTest" name="powerTruePositive" time="0"/>
+  <testcase classname="CalculatorTest" name="powerFalsePositive" time="0.032"/>
+  <testcase classname="CalculatorTest" name="powerTruePositive" time="0.008"/>
   <testcase classname="CalculatorTest" name="logFalsePositive" time="0"/>
-  <testcase classname="CalculatorTest" name="sqrootTruePositive" time="0"/>
+  <testcase classname="CalculatorTest" name="sqrootTruePositive" time="0.008"/>
 </testsuite>
